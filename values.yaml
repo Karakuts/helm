@@ -1,0 +1,23 @@
+api:
+  image: kravchuchka/backend
+  appName: backend
+  replicas: 2
+  env: production
+  containerPort: 3000
+
+web:
+  image: kravchuchka/frontend
+  appName: frontend
+  replicas: 1
+  env: production
+  containerPort: 80
+
+db:
+  image: kravchuchka/backend
+  appName: postgres
+  replicas: 1
+  env: production
+  containerPort: 5432
+
+
+

@@ -1,0 +1,5 @@
+  image: ""
+  appName: ""
+  replicas: ""
+  env: ""
+  containerPort: ""
